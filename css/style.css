@@ -1872,6 +1872,7 @@ div.services__title  {
   .hero__slider.owl-carousel .owl-dots {
     max-width: 930px !important;
   }
+  
 }
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1879,12 +1880,41 @@ div.services__title  {
     max-width: 690px !important;
   }
   img {
-    max-width: 50%;
+    max-width: 30%;
   }
+  .services {
+    background: #45210c;
+    padding-bottom: 60px;
+    padding-top: 0px;
+}
   .services__title {
     margin-bottom: 50px;
   }
-
+.hero__item {
+    height: 465px;
+    padding-top: 250px;
+}
+.hero__text h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    -webkit-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s;
+}
+.hero__slider.owl-carousel .owl-item.active .hero__text .primary-btn {
+    top: -54px;
+    opacity: 1;
+}
+.hero__text span {
+    font-size: 11px;
+}
   .counter__item {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
@@ -1981,15 +2011,15 @@ div.services__title  {
     color: #111111;
   }
 
-  .slicknav_nav {
+  /* .slicknav_nav {
     background: #222222;
-  }
+  } */
 
   .slicknav_btn {
     position: absolute;
     right: 10px;
     top: 26px;
-    background: #00bfe7;
+    background-color: transparent;
   }
 
   .header .container {
@@ -2005,7 +2035,37 @@ div.services__title  {
   .services__title {
     margin-bottom: 50px;
   }
-
+.slicknav_nav ul {
+    margin: 0;
+    padding: 0px 30px;
+    /* padding-left: 320px; */
+}
+.hero__slider.owl-carousel .owl-item.active .hero__text span {
+    top: 135px;
+    opacity: 1;
+}
+.hero__slider.owl-carousel .owl-item.active .hero__text .primary-btn {
+    top: 95px;
+    opacity: 1;
+}
+.hero__text h2 {
+    font-size: 20px;
+    line-height: 40px;
+}
+.hero__slider.owl-carousel .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 9px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.hero__slider.owl-carousel .owl-dots {
+    max-width: auto;
+    padding: 0 23px;
+    padding-left: 168px;
+}
   .counter__item {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
@@ -2013,6 +2073,17 @@ div.services__title  {
     margin-bottom: 30px;
     width: auto;
   }
+  .hero__item {
+    height: 405px;
+    padding-top: 120px;
+}
+.hero__text span {
+  font-size: 8px;
+}
+.hero__slider.owl-carousel .owl-item.active .hero__text h2 {
+    top: 121px;
+    opacity: 1;
+}
 
   .counter__item::before {
     display: none;
@@ -2110,18 +2181,23 @@ div.services__title  {
   .slicknav_btn {
     position: absolute;
     right: 10px;
-    top: 26px;
+    top: 14px;
     background: #00bfe7;
   }
 
   .header .container {
     position: relative;
   }
-
+.header__logo {
+    padding: 20px 0;
+}
   .header__nav__option {
     display: none;
   }
-
+.hero__item {
+    height: 465px;
+    padding-top: 120px;
+}
   .hero__text h2 {
     font-size: 40px;
     line-height: 40px;
@@ -2186,10 +2262,27 @@ img {
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {
   .hero__text h2 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 40px;
   }
-
+.slicknav_btn {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    background:transparent;
+    font-size: 15px;
+}
+.slicknav_nav {
+    background: transparent
+}
+div.services__title {
+    margin-top: 42px;
+}
+.services {
+    background: #45210c;
+    padding-bottom: 60px;
+    padding-top: 0px;
+}
   .grid-sizer {
     width: 100%;
   }
@@ -2197,7 +2290,23 @@ img {
   .work__item.wide__item {
     width: 100%;
   }
-
+.hero__item {
+    height: 377px;
+    padding-top: 120px;
+}
+.hero__slider.owl-carousel .owl-dots button {
+    color: #adadad;
+    font-size: 11px;
+    font-family: "Play", sans-serif;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+}
+.hero__slider.owl-carousel .owl-dots {
+    max-width: auto;
+    padding: 0 15px;
+    padding-left: 175px;
+}
   .work__item {
     width: 100%;
     margin-right: 0;
