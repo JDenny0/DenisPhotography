@@ -159,6 +159,7 @@ ol {
   font-weight: 200;
  
 }
+
 /* .section-title h2:after {
   position: absolute;
   left: 0;
@@ -1945,6 +1946,9 @@ div.services__title  {
     margin-bottom: 40px;
     margin-top: 140px;
 }
+.alignPic a {
+  padding-left: 32%;
+}
   .counter__item {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
@@ -2070,6 +2074,9 @@ div.services__title  {
     padding: 0px 30px;
     /* padding-left: 320px; */
 }
+.alignPic a {
+  padding-left: 32%;
+}
 .portfolio__filter li {
     list-style: none;
     font-size: 17px;
@@ -2084,6 +2091,7 @@ div.services__title  {
     margin-bottom: 40px;
     margin-top: 140px;
 }
+
 .hero__slider.owl-carousel .owl-item.active .hero__text span {
     top: 135px;
     opacity: 1;
@@ -2326,6 +2334,9 @@ img {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 140px;
+}
+.alignPic a {
+  padding-left: 32%;
 }
 .slicknav_btn {
     position: absolute;
