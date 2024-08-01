@@ -111,7 +111,23 @@ ol {
 
 /*---------------------
   Helper CSS
------------------------*/
+
+  -----------------------*/
+  .slicknav_menu .slicknav_menutxt {
+    display: block;
+    line-height: 1.188em;
+    float: left;
+    color: #fff;
+    font-weight: 700; 
+    text-shadow: none !important
+
+}
+.slicknav_menu .slicknav_icon-bar {
+    
+    -webkit-box-shadow:none !important;
+    -moz-box-shadow:none !important;
+    box-shadow:none !important;
+}
 .section-title {
   margin-bottom: 20px;
 }
@@ -1875,7 +1891,7 @@ div.services__title  {
   
 }
 /* Tablet Device = 768px */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 767px) and (max-width: 991px) {
   .hero__slider.owl-carousel .owl-dots {
     max-width: 690px !important;
   }
@@ -1914,6 +1930,20 @@ div.services__title  {
 }
 .hero__text span {
     font-size: 11px;
+}
+.portfolio__filter li {
+    list-style: none;
+    font-size: 16px;
+    color: #adadad;
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 20px;
+}
+.portfolio__filter {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 140px;
 }
   .counter__item {
     -webkit-transform: rotate(0);
@@ -2039,6 +2069,20 @@ div.services__title  {
     margin: 0;
     padding: 0px 30px;
     /* padding-left: 320px; */
+}
+.portfolio__filter li {
+    list-style: none;
+    font-size: 17px;
+    color: #adadad;
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+.portfolio__filter {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 140px;
 }
 .hero__slider.owl-carousel .owl-item.active .hero__text span {
     top: 135px;
@@ -2175,14 +2219,14 @@ div.services__title  {
   }
 
   .slicknav_nav {
-    background: #222222;
+    background: transparent;
   }
 
   .slicknav_btn {
     position: absolute;
     right: 10px;
     top: 14px;
-    background: #00bfe7;
+    background: transparent;
   }
 
   .header .container {
@@ -2265,6 +2309,24 @@ img {
     font-size: 20px;
     line-height: 40px;
   }
+  .portfolio__filter li {
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.portfolio__filter li {
+    list-style: none;
+    font-size: 13px;
+    color: #adadad;
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 0px;
+}
+.portfolio__filter {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 140px;
+}
 .slicknav_btn {
     position: absolute;
     right: 10px;
